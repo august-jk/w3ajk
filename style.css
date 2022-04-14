@@ -1,21 +1,31 @@
 body {
     background-image: url("https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA==");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;;
 }
-* {
-    text-align: center;
-}
+
 h1 {
     text-decoration: underline;
     color:cadetblue;
-    font-size: 75px; 
+    text-align: center;
+    font-size: 75px;
 }
+
 .text-block {
-    position: absolute;
+    
     background-color:floralwhite;
     top: 25%;
-    width: 50%;
-    left: 300px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
     text-align: center;
+    color: darkslategray;
+}
+.me {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+    background-color: cadetblue;
+    text-align: center;
+    color: lightgray;
 }
