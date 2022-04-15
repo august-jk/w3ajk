@@ -3,12 +3,20 @@ body {
     background-size: cover;
     background-attachment: fixed;;
 }
+.border {
+    border: 2px outset gray;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+}
 
 h1 {
-    text-decoration: underline;
-    color:cadetblue;
+    color:lightsalmon;
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
+    background-color: white;
 }
 * {
     font-family:Arial, Helvetica, sans-serif;
@@ -18,35 +26,48 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text-block {
-    
-    background-color:floralwhite;
+    border-radius: 30px;
+    background-color:white;
     top: 25%;
     margin: auto;
     width: 500px;
     height: 500px;
     text-align: center;
     color: darkslategray;
+    padding: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#intro {
+    border: 1px groove black;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 30px;
 }
 .me {
-    width: 300px;
+    width: 400px;
     margin: auto;
     margin-bottom: 0px;
-    background-color: cadetblue;
+    background-color: white;
     text-align: center;
-    color: lightgray;
+    color: black;
     font-size: medium; 
+    border-radius: 30px;
+    padding: 10px;
 }
-#name {
+#connect {
     text-align: center;
     font-size:x-large;
+    text-decoration:overline;
+    text-decoration: underline;
+    color: lightsalmon;
 }
-#flag {
-    position: relative;
-    height: 300px;
-}
+
 #image {
-    position: absolute;
-    height: 300px;
-    top: 377px;
-    left: 647px;
+    position:relative;
+    height: 275px;
+    margin: auto;
+    border-radius: 30px;
 }
