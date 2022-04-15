@@ -10,7 +10,13 @@ h1 {
     text-align: center;
     font-size: 75px;
 }
-
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1, 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .text-block {
     
     background-color:floralwhite;
@@ -24,14 +30,23 @@ h1 {
 .me {
     width: 300px;
     margin: auto;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     background-color: cadetblue;
     text-align: center;
     color: lightgray;
-    font-size: medium;
-   
+    font-size: medium; 
 }
 #name {
     text-align: center;
     font-size:x-large;
+}
+#flag {
+    position: relative;
+    height: 300px;
+}
+#image {
+    position: absolute;
+    height: 300px;
+    top: 377px;
+    left: 647px;
 }
