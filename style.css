@@ -34,10 +34,7 @@ h2 {
     text-align: center;
     color: darkslategray;
     padding: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
     position: relative;
     background-color: white;
     border-radius: 30px;
@@ -52,8 +49,7 @@ h2 {
 }
 .me {
     width: 400px;
-    margin: auto;
-    margin-bottom: 0px;
+    margin: 0 auto;
     background-color: white;
     text-align: center;
     color: black;
@@ -76,6 +72,7 @@ h2 {
     margin: auto;
     border-radius: 50px;
     padding-top: 20px;
+    text-shadow: 1px black;
 }
 #pronouns {
     padding-bottom: 20px;
@@ -83,3 +80,15 @@ h2 {
     line-height: 0px;
 }
 
+.media li {
+    list-style: none;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    position: relative;
+}
+.logos {
+    position: relative;
+    right: 25px;
+}
